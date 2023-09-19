@@ -2,11 +2,23 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.js",
+  "main": "src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
-  "keywords": ["server", "project habit"],
+  "keywords": [
+    "server",
+    "project habit"
+  ],
   "author": "Jhonathan Weber",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "fastify": "^4.23.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.3.1",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  }
 }
