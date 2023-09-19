@@ -13,6 +13,7 @@
   "author": "Jhonathan Weber",
   "license": "ISC",
   "dependencies": {
+    "@fastify/cors": "^8.4.0",
     "@prisma/client": "^5.3.1",
     "fastify": "^4.23.2"
   },
